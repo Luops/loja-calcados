@@ -1,8 +1,8 @@
-create table users(
-    id serial primary key,
-    username varchar(20),
-    password varchar(800),
-    name varchar(50),
-    email varchar(60),
-    role smallint
+CREATE TABLE users(
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(20),
+    password VARCHAR(800),
+    name VARCHAR(50),
+    email VARCHAR(60),
+    role SMALLINT
 );

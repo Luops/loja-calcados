@@ -1,5 +1,5 @@
 {
     "watch": ["api"],
     "ext": ".ts,.js",
-    "exec": "node --loader ts-node/esm ./api/index.ts"
+    "exec": "node --loader ts-node/esm ./api/server.ts"
 }
